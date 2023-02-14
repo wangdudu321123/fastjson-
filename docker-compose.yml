@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  moon:
+    image: registry.cn-hangzhou.aliyuncs.com/wangduduya/moonup:1.11
+    ports:
+      - "8889:8889"
+      - "8088:8088"
+      - "2222:22"
+    privileged: true
