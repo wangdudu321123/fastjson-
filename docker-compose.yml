@@ -2,7 +2,7 @@ version: "3"
 
 services:
   moon:
-    image: registry.cn-hangzhou.aliyuncs.com/wangduduya/moonup:1.12
+    image: registry.cn-hangzhou.aliyuncs.com/wangduduya/moonup:1.13
     ports:
       - "8889:8889"
       - "8088:8088"
